@@ -6,7 +6,7 @@ const esBisiesto = function(year) {
     }
 };
 
-// Ejemplo de uso
+// Ejemplo
 const year = 2003;
 if (esBisiesto(year)) {
     console.log(year + " es un año bisiesto.");
