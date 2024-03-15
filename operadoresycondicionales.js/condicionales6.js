@@ -3,8 +3,8 @@ console.log("Escriba dos numeros")
 let a = -20
 let e = 2
 
-console.log(A)
-console.log(B)
+console.log(a)
+console.log(e)
 
 if(  a < e  ){
     let resultado = (-a) + (+e)
