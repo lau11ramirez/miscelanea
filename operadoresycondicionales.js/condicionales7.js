@@ -1,8 +1,15 @@
-console.log("Ingrese un año")
-let año = 2023
-console.log(año)
-if(año % 400 == 0 || año % 4 == 0){
-    console.log("El año es bisiesto")
-}else{
-    console.log("El año no es bisiesto")
+const esBisiesto = function(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+// Ejemplo de uso
+const year = 2003;
+if (esBisiesto(year)) {
+    console.log(year + " es un año bisiesto.");
+} else {
+    console.log(year + " no es un año bisiesto.");
 }
