@@ -2,7 +2,7 @@ console.log("Ingrese dos numeros")
 
 console.log("Recuerde que la divison no puede ser 0")
 
-let a = 1000
+let a = 100
 let b = 0
 
 
