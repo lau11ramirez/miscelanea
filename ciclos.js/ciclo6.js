@@ -5,7 +5,7 @@ let a = 4;
 console.log(a);
 
 console.log("Segundo numero:");
-let b = 4o;
+let b = 40;
 console.log(b);
 
 console.log("Numeros comprendidos");
