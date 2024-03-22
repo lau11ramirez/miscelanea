@@ -1,11 +1,11 @@
 console.log("Ingrese dos numeros");
 
 console.log("Primer numero:");
-let a = 2;
+let a = 4;
 console.log(a);
 
 console.log("Segundo numero:");
-let b = 27;
+let b = 4o;
 console.log(b);
 
 console.log("Numeros comprendidos");
